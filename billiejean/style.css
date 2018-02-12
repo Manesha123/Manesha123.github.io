@@ -171,7 +171,7 @@ img.arrow, .arrow-2{
 	text-align: center;
 	color: rgb(250, 215, 160);
 	background-color: grey;
-	font-size: 24px;
+	font-size: 20px;
 	padding: 1%;
 }
 
@@ -219,6 +219,10 @@ img.arrow, .arrow-2{
 }
 .review-container{
 	padding: 10% 0%;
+	background-color: black;
+	
+}
+.heading{
 	background: linear-gradient(white, black);
 }
 

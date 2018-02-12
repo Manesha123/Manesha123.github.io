@@ -7,34 +7,66 @@ window.st = ScrollReveal({ duration: 1000});
 			st.reveal('.arrow');
 
 
-// function myFunction(identifier) {
-//     var elmnt = document.getElementById(identifier);
-//     elmnt.scrollIntoView();
-// }
-
-
-
-document.getElementById("trailer").addEventListener("click", function myFunction() {
-    var elmnt = document.getElementById("Trailer");
+function scrollFunction(identifier) {
+    var elmnt = document.getElementById(identifier);
     elmnt.scrollIntoView();
+}
+
+
+
+document.getElementById("trailer").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
 });
 
-document.getElementById("cast").addEventListener("click", function myFunction() {
-    var elmnt = document.getElementById("Cast");
-    elmnt.scrollIntoView();
+document.getElementById("cast").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
 });
 
-document.getElementById("review").addEventListener("click", function myFunction() {
-    var elmnt = document.getElementById("Review");
-    elmnt.scrollIntoView();
+document.getElementById("review").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
 });
 
-document.getElementById("arrow1").addEventListener("click", function myFunction() {
-    var elmnt = document.getElementById("first");
-    elmnt.scrollIntoView();
+document.getElementById("arrow1").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
 });
 
-document.getElementById("arrow2").addEventListener("click", function myFunction() {
-    var elmnt = document.getElementById("Cast");
-    elmnt.scrollIntoView();
+document.getElementById("arrow2").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
 });
+
+document.getElementById("arrow3").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
+});
+
+document.getElementById("arrow4").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction(scrollid);
+    
+});
+
