@@ -5,6 +5,7 @@ window.st = ScrollReveal({ duration: 1000});
 			st.reveal('.cast');
 			st.reveal('.meet');
 			st.reveal('.arrow');
+      st.reveal('.video');
 
 
 function scrollFunction(identifier) {
