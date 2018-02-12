@@ -75,3 +75,34 @@ document.getElementById("arrow4").addEventListener("click", function(element) {
     
 });
 
+// document.getElementsByClassName("arrow").addEventListener("hover", function(element){
+
+
+// });
+
+
+document.getElementById("arrow5").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction2(scrollid);
+    
+});
+
+document.getElementById("arrow6").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction2(scrollid);
+    
+});
+
+
+document.getElementById("arrow7").addEventListener("click", function(element) {
+
+   // console.log(element);
+    var scrollid = element.target.dataset.scroll;
+    scrollFunction2(scrollid);
+    
+});
+
