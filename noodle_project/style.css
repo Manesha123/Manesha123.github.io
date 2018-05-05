@@ -10,6 +10,7 @@
 	padding: 0 auto;
 	margin: 0 auto;
 	padding-top: 40% auto;
+  font-size: 15px;
 	
 }
 
@@ -34,7 +35,7 @@
 
 .typewriter h1 {
 	color: white;
-	font-size: 75px;
+	font-size: 55px;
 	font-family: sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
