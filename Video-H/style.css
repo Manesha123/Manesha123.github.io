@@ -1,0 +1,106 @@
+#backdrop{
+  margin: 0px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+
+
+.title{
+  width: 50%;
+  display: inline-block;
+  font-size: 40px;
+  margin: 2%;
+  color: white;
+  font-family: 'Gugi', cursive;
+}
+
+.begin{
+  padding: 2%;
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  font-family: 'Gugi', cursive;
+  float:center;
+  margin:auto;
+  position: relative;
+
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+
+.begin:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+/*.title h1{
+  /*border-right: .15em solid orange;*/
+  /*white-space: nowrap;
+  overflow: hidden;
+}
+
+.title h1:nth-child(1){
+  
+width: 11.5em;
+  animation: type2 2s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+    
+}
+
+.title h1:nth-child(2){
+  width: 11.5em;*/
+  /*opacity: 0;*/
+  /*animation: type2 2s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+    
+}
+
+.title h1:nth-child(3){*/
+  /*opacity: 0;*/
+  /*animation: typing 2s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 4s; 
+    
+}
+
+
+@keyframes typing {
+ from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+
+*/

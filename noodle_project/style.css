@@ -1,0 +1,221 @@
+.main-container1{
+	background-color: black;
+	height: 100vh;
+	width: 100%;
+}
+
+.typewriter{
+	width: 45%;
+	color: white;
+	padding: 0 auto;
+	margin: 0 auto;
+	padding-top: 40% auto;
+	
+}
+
+.space-filler{
+	height:35%;
+
+}
+
+.arrow-container{
+	margin: 0 auto;
+	padding: 0 auto;
+	justify-content: center;
+}
+.arrow{
+	width: 13%;
+	height: 15%;
+	display: block;
+    margin: 0 auto;
+
+}
+
+
+.typewriter h1 {
+	color: white;
+	font-size: 75px;
+	font-family: sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.arrow-container {
+
+  
+  
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+
+.ele:hover {
+  background-color: #123;
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.frame{
+  width:100%;
+  height:100vh;
+  margin:0px;
+  z-index:100;
+  position: absolute;
+  top: 0;
+  left:auto;
+}
+
+.main-container{
+  height: 100vh;
+  width:100vh;
+ 
+  }
+
+  .frame-image{
+    width: 100%;
+    height: 100%;
+  }
+
+  .item{
+    height: 100vh;
+
+  }
+
+  .carousel-indicators li { visibility: hidden; }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.smiley{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 80%;
+}
+
+.background-image{
+  z-index:-1;
+}
+
+.noodle{
+  padding-top: 10%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+  position: absolute;
+  color:white;
+  z-index:100;
+  top:0;
+  left: 0;
+  width:30%;
+  margin:10%;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.text2{
+  position: absolute;
+  color:white;
+  z-index:100;
+  top:0;
+  left: 0;
+  width:30%;
+  margin:40% 60%;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.t3{
+  
+  color:white;
+  width:30%;
+  ;
+  font-family: sans-serif;
+  font-size: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-container1{
+  position: relative;
+  
+}

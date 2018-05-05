@@ -1,0 +1,163 @@
+
+.videoStyle{
+	float: left;
+	width: 100%;
+	height: 100vh;
+
+}
+
+#backdrop{
+  margin: 0px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+#overlaythree, #overlaytwo, #redirect {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+
+
+
+.title h1, .titles h1{
+  width: 50%;
+  display: inline-block;
+  font-size: 100px;
+  margin: 2%;
+  color: white;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.title h1{
+	margin: 10%;
+}
+.titles h1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+}
+
+#countdowntimer{
+	color:red;
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	margin:2% auto;
+}
+
+.begin{
+  padding: 2%;
+  background-color: white;
+  border: none;
+  font-size: 38px;
+  font-family: 'Do Hyeon', sans-serif;
+  margin:auto;
+  position: relative;
+
+}
+.timer{
+	font-size: 48px;
+}
+.option{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding: 2%;
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  font-family: 'Do Hyeon', sans-serif;
+  float:center;
+  margin:auto;
+  position: relative;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+
+.begin:hover, .option:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+/*.title h1{
+  /*border-right: .15em solid orange;*/
+  /*white-space: nowrap;
+  overflow: hidden;
+}
+
+.title h1:nth-child(1){
+  
+width: 11.5em;
+  animation: type2 2s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+    
+}
+
+.title h1:nth-child(2){
+  width: 11.5em;*/
+  /*opacity: 0;*/
+  /*animation: type2 2s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+    
+}
+
+.title h1:nth-child(3){*/
+  /*opacity: 0;*/
+  /*animation: typing 2s steps(40, end), blink .5s step-end infinite alternate;
+    animation-delay: 4s; 
+    
+}
+
+
+@keyframes typing {
+ from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+
+
+*/
