@@ -44,13 +44,13 @@ function draw() {
   // // check if the mouse is inside the bounding box and tickle if so
   if ( mouseX >= posx && mouseX <= posx + 200 &&
      mouseY >= posy && mouseY <= posy + 200) {
-  	if (n!=500){
+  	if (n!=250){
     posx += random(-5, 5);
     posy += random(-5, 5);
      n +=1;
      console.log(n);
  }
- if (n==500){
+ if (n==250){
  	window.location.href = 'video.html';
  }
   }
